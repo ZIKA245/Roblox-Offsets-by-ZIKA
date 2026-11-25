@@ -2,8 +2,8 @@
 /*  Dumped With     : ZIKA Dumper
 /*  Roblox Version  : version-2c6fd5e09aaf4cfa
 /*  Dumper Version  : 4.0.0
-/*  Dumped At       : 13:33:30 2026-11-24
-/*  Kernel & Threads: 290
+/*  Dumped At       : 17:37:33 2026-11-24
+/*  Kernel & Threads: 280
 */
 
 #pragma once
@@ -258,10 +258,6 @@ namespace KernelDrivers {
    TID=15452 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
    TID=19436 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
    TID=22588 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=24652 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=18952 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=23868 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=17384 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
    TID=22996 start=0x7ff8433bc378 mod=atidxx64.dll+0xaec378
    TID=9068 start=0x7ff8433bc378 mod=atidxx64.dll+0xaec378
    TID=6428 start=0x7ff8433bc378 mod=atidxx64.dll+0xaec378
@@ -275,16 +271,10 @@ namespace KernelDrivers {
    TID=16952 start=0x7ff8433bc378 mod=atidxx64.dll+0xaec378
    TID=17128 start=0x7ff8433bc378 mod=atidxx64.dll+0xaec378
    TID=25584 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=14768 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
    TID=24084 start=0x7ff83717bd20 mod=inputhost.dll+0x3bd20
    TID=3356 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=10928 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=18340 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=16168 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
    TID=16852 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
    TID=24132 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=12408 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=2920 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
    TID=19964 start=0x7ff841085270 mod=amdihk64.dll+0x5270
    TID=13168 start=0x7ff841086520 mod=amdihk64.dll+0x6520
    TID=14076 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
@@ -297,16 +287,16 @@ namespace KernelDrivers {
    TID=12900 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
    TID=1896 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
    TID=1356 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=13308 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=5204 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=24044 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=25556 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=9532 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=16288 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=19824 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=24008 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=8876 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=3488 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
-   TID=17472 start=0x7ff8504d4990 mod=ntdll.dll+0x24990
-   TID=24916 start=0x7ff8504d4990 mod=ntdll.dll+0x24990
+   TID=23584 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
+   TID=18256 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
+   TID=25040 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
+   TID=2860 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
+   TID=18076 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
+   TID=3520 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
+   TID=23728 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
+   TID=4396 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
+   TID=10820 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
+   TID=4984 start=0x7ff66106da60 mod=RobloxPlayerBeta.exe+0x5e1da60
+   TID=19404 start=0x7ff8504d4990 mod=ntdll.dll+0x24990
+   TID=19232 start=0x7ff8504d4990 mod=ntdll.dll+0x24990
 */

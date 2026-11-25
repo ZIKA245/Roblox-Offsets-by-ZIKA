@@ -19,9 +19,9 @@
   [+] ClientVersion                              -> version-2c6fd5e09aaf4cfa
   [+] RobloxPlayerBeta.dll                       -> 0x7FFFA4770000  (Hyperion/Byfron module)
   [+] EXE Encrypted .pdata                       -> 0x8E5E000  (Size=0x3109ec (unnamed/encrypted on disk & mem))
-  [+] EXE .text Live Coverage                    -> 28.8% live (28 MB / 100 MB)
+  [+] EXE .text Live Coverage                    -> 30.2% live (30 MB / 100 MB)
   [*] Harvesting newly decrypted .text pages for 2s while Roblox runs...
-  [+] EXE .text Accumulated                      -> 28.8% accumulated (7401/25654 pages, +7401 new this run)
+  [+] EXE .text Accumulated                      -> 30.2% accumulated (7737/25654 pages, +7737 new this run)
   [+] EXE::RawEntryPoint (tempest)               -> 0x9366004
   [+] EXE::TempestTargetDllRva                   -> 0xF35E30  (tempest -> RobloxPlayerBeta.dll)
   [+] CFG::DispatchTargetDllRva                  -> 0xCE3990  (guard_dispatch_icall -> Hyperion)
@@ -35,25 +35,26 @@
 
 ── [3/9] Deep IAT/DelayImport Resolver & Decrypted Strings/XREFs ──
   [+] EXE IAT Resolved                           -> 405 APIs across 22 DLLs (543 lazy sentinels)
-  [+] Strings & XREFs                            -> 154067 strings (38452 .text -> .rdata XREFs)
+  [+] Strings & XREFs                            -> 154067 strings (42939 .text -> .rdata XREFs)
 
 ── [4/9] ClassDescriptors & Reflection Property Extractor ─────
   [+] ClassDescriptor::VTableRva                 -> 0x7036B28  (815 classes with properties)
   [+] Total ClassDescriptors                     -> 833
-  [+] Reflection Property Offsets                -> 5805 extracted from live getters
+  [+] Reflection Property Offsets                -> 5824 extracted from live getters
   [+] Reflection Members                         -> 4882 events, 18813 functions, 379 yieldFunctions
-  [!] EncryptedGetters                     : 477 property getters sit on undecrypted PAGE_NOACCESS pages.
+  [!] EncryptedGetters                     : 444 property getters sit on undecrypted PAGE_NOACCESS pages.
 
 ── [5/9] Engine, DataModel, VisualEngine, TaskScheduler & Cheat Offsets 
-  [+] FakeDataModel::Pointer                     -> 0x8CDC038
-  [+] FakeDataModel::RealDataModel               -> 0x1A0
+  [+] FakeDataModel::Pointer                     -> 0x8E16368
+  [+] FakeDataModel::RealDataModel               -> 0x1F8
   [+] DataModel::Workspace                       -> 0x168
   [+] DataModel::Services                        -> 0x98  (378 services, ScriptContext found)
-  [+] ScriptContext(live)                        -> 0x2990E7C00D0
+  [+] ScriptContext(live)                        -> 0x29927B818D0
   [+] TaskScheduler::Pointer                     -> 0x8DA5D98
   [+] VisualEngine::Pointer                      -> 0x8896B98
   [+] Workspace::CurrentCamera                   -> 0x4A0
   [+] Player::LocalPlayer                        -> 0x118  (Zika_2450)
+  [+] Player::ModelInstance                      -> 0x2A0
   [+] Humanoid::WalkspeedCheck                   -> 0x39C  (verified against Walkspeed)
   [+] BasePart::Primitive                        -> 0x178  (live HumanoidRootPart verified)
 
@@ -67,8 +68,8 @@
 
 ── [7/9] .pdata Exception Table Synthesis & INT3 / IAT Thunk Audit ──
   [+] Hyperion DLL .pdata                        -> 1810 RUNTIME_FUNCTION entries
-  [+] EXE .pdata Synthesized                     -> 68779 RUNTIME_FUNCTION entries
-  [+] INT3 & IAT Thunks                          -> 1830 IAT thunks, 42456 non-padding INT3 traps
+  [+] EXE .pdata Synthesized                     -> 71161 RUNTIME_FUNCTION entries
+  [+] INT3 & IAT Thunks                          -> 1870 IAT thunks, 44324 non-padding INT3 traps
 
 ── [8/9] Dynamic FastFlags (FFlags) Extractor ─────────
   [+] Dynamic FFlags                             -> 15183 flags recovered from .rdata -> .data
@@ -90,13 +91,16 @@
   [+] Hooks in ucrtbase.dll                      -> 13 modified exports detected
   [*] sechost.dll: 0 inline export hooks detected.
   [+] Hyperion .fptable                          -> 4 active slots resolved
+  [+] DLL Dynamic API Pointers                   -> 119 resolved in .data/.rdata
+  [+] DLL Syscall Instructions                   -> 5211 sites (0 immediate SSNs resolved)
+  [+] Hyperion::MasterExceptionDispatcher        -> 0xB75D30
   [+] Kernel Drivers                             -> 208 loaded system/kernel modules
-  [+] Process Threads                            -> 82 threads (1 Hyperion, 0 private-exec)
+  [+] Process Threads                            -> 72 threads (1 Hyperion, 0 private-exec)
 
 ── [7/7] Generating C++ Headers (.h) ────────────
-  [+] Generated                                  -> Offsets.h  (5884 offsets)
-  [+] Generated                                  -> VMOffsets.h  (259 VM offsets)
-  [+] Generated                                  -> Security.h  (135 security/hook entries)
+  [+] Generated                                  -> Offsets.h  (5906 offsets)
+  [+] Generated                                  -> VMOffsets.h  (254 VM offsets)
+  [+] Generated                                  -> Security.h  (140 security/hook entries)
   [+] Generated                                  -> Structs.h  (14 C++ structs)
   [+] Generated                                  -> FFlags.h  (15183 FFlags)
   [+] Generated                                  -> ZikaAll.h  (Master umbrella header)
@@ -104,29 +108,37 @@
   [+] Generated                                  -> imports.json  (948 IAT slots)
   [+] Generated                                  -> RTTI.h  (3185 RBX/Luau VTables in header)
   [+] Generated                                  -> rtti_full.json  (21270 RTTI classes)
-  [+] Generated                                  -> PData.h  (68779 EXE + 1810 DLL functions)
-  [+] Generated                                  -> strings_dump.txt  (154067 strings, 38452 XREFs)
-  [+] Generated                                  -> KernelTelemetry.h  (208 drivers, 82 threads)
+  [+] Generated                                  -> PData.h  (71161 EXE + 1810 DLL functions)
+  [+] Generated                                  -> strings_dump.txt  (154067 strings, 42939 XREFs)
+  [+] Generated                                  -> KernelTelemetry.h  (208 drivers, 72 threads)
   [+] Generated                                  -> PE_Report.h  (Entrypoints, coverage & INT3/thunk audit)
-  [+] Generated                                  -> dump.json  (21457 flat entries)
+  [+] Generated                                  -> dump.json  (21479 flat entries)
   [+] Generated                                  -> Reflection.json  (833 classes exported)
-  [+] Dumped PE (EXE)                            -> RobloxPlayerBeta_dumped.exe  (148 MB, .zimp=359 APIs, .zpdata=68779 funcs)
+  [+] Generated                                  -> dll_symbols.json  (38 named fns, 123 dynamic APIs)
+  [+] Dumped PE (EXE)                            -> RobloxPlayerBeta_dumped.exe  (148 MB, .zimp=359 APIs, .zpdata=71161 funcs)
   [+] Dumped PE (DLL)                            -> RobloxPlayerBeta_dumped.dll  (17 MB (100% readable Hyperion + .pdata))
+
+── [10/10] Multi-Layer Anti-Cheat C++ Source Reconstruction (Hyperion + Engine) 
+  [*] Limpando ilhas anti-disassembly (Jcc + bytes invalidos) antes do Ghidra...
+  [+] Binary Pre-Cleaner                         -> RobloxPlayerBeta_clean.dll pronto (zero pcode junk)
+  [+] Ghidra 12.2 AST Decompiler                 -> 100% concluido sem erros no console
+  [*] Gerando projeto C++ multi-camada (Hyperion DLL + Engine IntegrityService EXE)...
+  [+] AntiCheat Source Tree                      -> C:\Users\ZIKA\Music\ZIKA Dumper Roblox\ZIKA Dumper\AntiCheat_Source\MASTER_ANTICHEAT_INDEX.md
 
 === DIAGNOSTIC SUMMARY (version-2c6fd5e09aaf4cfa) ===
 Total warnings: 1, Total errors: 0
-[WARN][Reflection] EncryptedGetters -> 477 property getters sit on undecrypted PAGE_NOACCESS pages.
+[WARN][Reflection] EncryptedGetters -> 444 property getters sit on undecrypted PAGE_NOACCESS pages.
 
   +-----------------------------------------------------------------------------------+
   |  DUMP COMPLETE — ZIKA DUMPER v4.0                                               |
   +-----------------------------------------------------------------------------------+
   |  Client Version   : version-2c6fd5e09aaf4cfa                                      |
-  |  Engine/Cheat     : 5884 offsets (Offsets.h)                                      |
-  |  Luau VM/Executor : 259 offsets (VMOffsets.h)                                     |
-  |  Hyperion/Sec     : 135 hooks/checks (Security.h)                                 |
+  |  Engine/Cheat     : 5906 offsets (Offsets.h)                                      |
+  |  Luau VM/Executor : 254 offsets (VMOffsets.h)                                     |
+  |  Hyperion/Sec     : 140 hooks/checks (Security.h)                                 |
   |  Structs          : 14 padded C++ structs (Structs.h)                             |
   |  FFlags           : 15183 dynamic flags (FFlags.h)                                |
-  |  Elapsed Time     : 5.42s                                                         |
+  |  Elapsed Time     : 165.32s                                                       |
   |  Warnings / Errors: 1 warn, 0 err (see dump_log.txt)                              |
   |  Output Folder    : C:\Users\ZIKA\Music\ZIKA Dumper Roblox\ZIKA Dumper            |
   +-----------------------------------------------------------------------------------+

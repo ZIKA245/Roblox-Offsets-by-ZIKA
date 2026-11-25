@@ -2,8 +2,8 @@
 /*  Dumped With     : ZIKA Dumper
 /*  Roblox Version  : version-2c6fd5e09aaf4cfa
 /*  Dumper Version  : 4.0.0
-/*  Dumped At       : 13:33:29 2026-11-24
-/*  Synthesized PData: 68779
+/*  Dumped At       : 17:37:33 2026-11-24
+/*  Synthesized PData: 71161
 */
 
 #pragma once
@@ -14,7 +14,7 @@
 namespace PDataSummary {
     inline constexpr uintptr_t ExeEncryptedPdataRva = 0x8e5e000;
     inline constexpr uintptr_t ExeEncryptedPdataSize = 0x3109ec;
-    inline constexpr size_t ExeSynthesizedFuncCount = 68779;
+    inline constexpr size_t ExeSynthesizedFuncCount = 71161;
     inline constexpr uintptr_t DllExceptionDirRva = 0x1107d28;
     inline constexpr size_t DllValidFuncCount = 1810;
 }

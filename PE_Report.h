@@ -2,8 +2,8 @@
 /*  Dumped With     : ZIKA Dumper
 /*  Roblox Version  : version-2c6fd5e09aaf4cfa
 /*  Dumper Version  : 4.0.0
-/*  Dumped At       : 13:33:30 2026-11-24
-/*  INT3 & Thunks   : 4898
+/*  Dumped At       : 17:37:33 2026-11-24
+/*  INT3 & Thunks   : 4965
 */
 
 #pragma once
@@ -19,10 +19,10 @@ namespace PEReport {
     inline constexpr uintptr_t ExeResolvedCrtOepRva = 0x5de50c0;
     inline constexpr uintptr_t DllEntryPointRva = 0xcb7f00;
     inline constexpr uintptr_t DllEntryRunRva = 0x7f5ce0;
-    inline constexpr size_t TextCachedPages = 7401;
+    inline constexpr size_t TextCachedPages = 7737;
     inline constexpr size_t TextTotalPages = 25654;
-    inline constexpr size_t TotalIatThunks = 1830;
-    inline constexpr size_t TotalNonPaddingInt3Traps = 42456;
+    inline constexpr size_t TotalIatThunks = 1870;
+    inline constexpr size_t TotalNonPaddingInt3Traps = 44324;
 }
 
 /* Sample IAT Thunks & Non-Padding INT3 Traps:
@@ -156,6 +156,52 @@ namespace PEReport {
    [EXE] trap_isolated @ 0x4faa9 -> INT3 (CC)
    [EXE] trap_isolated @ 0x4fb24 -> INT3 (CC)
    [EXE] trap_isolated @ 0x4fe30 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x560cd -> INT3 (CC)
+   [EXE] trap_isolated @ 0x562b9 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x56525 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x56583 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x565c8 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x565e9 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x56609 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x56b51 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x56c28 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x56d01 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x56ded -> INT3 (CC)
+   [EXE] trap_isolated @ 0x56ee7 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x56fe0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x570d6 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x571cb -> INT3 (CC)
+   [EXE] trap_isolated @ 0x572d7 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x573f6 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57510 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57630 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5773b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57928 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57a0b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57b8a -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57b9e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57bb7 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57bd0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57be9 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57c02 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57c1b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57c34 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57c4d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57c53 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57c66 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57c98 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57cb1 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57cb7 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57cca -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57ce3 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57cfc -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57d15 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57d1b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57d2e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57d45 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57d5c -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57d73 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x57f9b -> INT3 (CC)
    [EXE] trap_isolated @ 0x5b766 -> INT3 (CC)
    [EXE] trap_isolated @ 0x5b7d0 -> INT3 (CC)
    [EXE] trap_isolated @ 0x5b839 -> INT3 (CC)
@@ -177,6 +223,61 @@ namespace PEReport {
    [EXE] trap_isolated @ 0x5bd24 -> INT3 (CC)
    [EXE] trap_isolated @ 0x5bd8d -> INT3 (CC)
    [EXE] trap_isolated @ 0x5bf9e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5c180 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5c4a9 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5c68b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5c98b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5c9b9 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5c9e6 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5ca12 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5ca6c -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5ca99 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5cac9 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5caf9 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5cb29 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5cb59 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5cb89 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5cda1 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5ce33 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5ce5d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5cec7 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5cf2a -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5cfbb -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5cfde -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d092 -> INT3 (CC)
+   [EXE] cd03 @ 0x5d152 -> INT 3 (CD 03)
+   [EXE] trap_isolated @ 0x5d1b3 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d246 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d270 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d2da -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d33d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d3f2 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d563 -> INT3 (CC)
+   [EXE] cd03 @ 0x5d566 -> INT 3 (CD 03)
+   [EXE] trap_isolated @ 0x5d5d0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d62e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d646 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d68d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d746 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d834 -> INT3 (CC)
+   [EXE] cd03 @ 0x5d837 -> INT 3 (CD 03)
+   [EXE] trap_isolated @ 0x5d873 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d8d2 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d8ea -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d931 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d973 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d9d3 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5d9ea -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5dad8 -> INT3 (CC)
+   [EXE] cd03 @ 0x5dadb -> INT 3 (CD 03)
+   [EXE] trap_isolated @ 0x5dce4 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5dd79 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5dd9b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5de0b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5de6d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5def3 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5df19 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x5dfba -> INT3 (CC)
    [EXE] trap_isolated @ 0x60268 -> INT3 (CC)
    [EXE] trap_isolated @ 0x602d2 -> INT3 (CC)
    [EXE] trap_isolated @ 0x6033d -> INT3 (CC)
@@ -235,6 +336,88 @@ namespace PEReport {
    [EXE] trap_isolated @ 0x64cc7 -> INT3 (CC)
    [EXE] trap_isolated @ 0x64f27 -> INT3 (CC)
    [EXE] trap_isolated @ 0x65074 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x662fc -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66542 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66b98 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66cb3 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66cf4 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66da3 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66da8 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66e63 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66e68 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66ed0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66f50 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66f89 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x66f8e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x67339 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x673fd -> INT3 (CC)
+   [EXE] trap_isolated @ 0x67440 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6a3be -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6a8be -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6aab0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6aca6 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6acf4 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6ae19 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6ae5c -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6ae73 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6aeb9 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6af0d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6af61 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b17b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b190 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b195 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b1a3 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b367 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b380 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b385 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b400 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b5d3 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b627 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6b67b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6bd27 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6d0d2 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6d993 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6dacd -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6dbfd -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6dd4d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6dd91 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6ddd4 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6de18 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6e7ea -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6f47e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6f4e6 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6f54e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6f95c -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6fa67 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6fe70 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x70b18 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x70ba7 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x70bb7 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x70e84 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x70efc -> INT3 (CC)
+   [EXE] trap_isolated @ 0x70f73 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x710f0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x71421 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x71499 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x71510 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x71c9e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x71d2d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x71d3d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72003 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7207b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x720f2 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72583 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x725fb -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72672 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72af6 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72b4c -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72b8d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72be4 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72c25 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72c7c -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72cbd -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72d14 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x72fc3 -> INT3 (CC)
    [EXE] trap_isolated @ 0x73e80 -> INT3 (CC)
    [EXE] trap_isolated @ 0x73ef5 -> INT3 (CC)
    [EXE] trap_isolated @ 0x73f2a -> INT3 (CC)
@@ -262,6 +445,20 @@ namespace PEReport {
    [EXE] trap_isolated @ 0x9feac -> INT3 (CC)
    [EXE] trap_isolated @ 0x9feb2 -> INT3 (CC)
    [EXE] trap_isolated @ 0x9feb9 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x64d3b5 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x64d855 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x64e3d8 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x64ee24 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6587c0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x659cf0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6710ee -> INT3 (CC)
+   [EXE] trap_isolated @ 0x671117 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6713ae -> INT3 (CC)
+   [EXE] trap_isolated @ 0x67141e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6714ce -> INT3 (CC)
+   [EXE] trap_isolated @ 0x67150e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x67153e -> INT3 (CC)
+   [EXE] trap_isolated @ 0x6718d8 -> INT3 (CC)
    [EXE] trap_isolated @ 0x6ca095 -> INT3 (CC)
    [EXE] trap_isolated @ 0x6ca15e -> INT3 (CC)
    [EXE] trap_isolated @ 0x6ca3dd -> INT3 (CC)
@@ -532,6 +729,14 @@ namespace PEReport {
    [EXE] trap_isolated @ 0x712cc8 -> INT3 (CC)
    [EXE] trap_isolated @ 0x712d97 -> INT3 (CC)
    [EXE] trap_isolated @ 0x712d9d -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7145ee -> INT3 (CC)
+   [EXE] trap_isolated @ 0x714624 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7148a0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x714b5c -> INT3 (CC)
+   [EXE] trap_isolated @ 0x715630 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7156aa -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7156c0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7156fb -> INT3 (CC)
    [EXE] trap_isolated @ 0x727012 -> INT3 (CC)
    [EXE] trap_isolated @ 0x727018 -> INT3 (CC)
    [EXE] trap_isolated @ 0x72701e -> INT3 (CC)
@@ -745,6 +950,12 @@ namespace PEReport {
    [EXE] trap_isolated @ 0x7507f5 -> INT3 (CC)
    [EXE] trap_isolated @ 0x750b75 -> INT3 (CC)
    [EXE] trap_isolated @ 0x750db1 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x754366 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x754556 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x754a7b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x754d62 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x754dd3 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x754f06 -> INT3 (CC)
    [EXE] trap_isolated @ 0x7551b1 -> INT3 (CC)
    [EXE] trap_isolated @ 0x755433 -> INT3 (CC)
    [EXE] trap_isolated @ 0x75551b -> INT3 (CC)
@@ -1315,6 +1526,12 @@ namespace PEReport {
    [EXE] trap_isolated @ 0x7b789a -> INT3 (CC)
    [EXE] trap_isolated @ 0x7b7af0 -> INT3 (CC)
    [EXE] trap_isolated @ 0x7b7e03 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7b8143 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7b8321 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7b85a6 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7b87e6 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7b8817 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x7b8efb -> INT3 (CC)
    [EXE] trap_isolated @ 0x7b9401 -> INT3 (CC)
    [EXE] trap_isolated @ 0x7ba299 -> INT3 (CC)
    [EXE] trap_isolated @ 0x7ba736 -> INT3 (CC)
@@ -1959,6 +2176,17 @@ namespace PEReport {
    [EXE] trap_isolated @ 0x85b965 -> INT3 (CC)
    [EXE] trap_isolated @ 0x85ba26 -> INT3 (CC)
    [EXE] trap_isolated @ 0x85bd16 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x860072 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x860238 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x86042b -> INT3 (CC)
+   [EXE] trap_isolated @ 0x860658 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x8606d0 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x8607a6 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x8607f5 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x860975 -> INT3 (CC)
+   [EXE] trap_isolated @ 0x860ade -> INT3 (CC)
+   [EXE] trap_isolated @ 0x860bfa -> INT3 (CC)
+   [EXE] trap_isolated @ 0x860e48 -> INT3 (CC)
    [EXE] trap_isolated @ 0x86105e -> INT3 (CC)
    [EXE] trap_isolated @ 0x861172 -> INT3 (CC)
    [EXE] trap_isolated @ 0x8612be -> INT3 (CC)
@@ -2586,261 +2814,34 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x8f7769 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x8f78cb -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x8f78e6 -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x8f7b77 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8f7f97 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8f8d12 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fa222 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fa552 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fa7a5 -> INT3 (CC)
    [EXE] iat_thunk @ 0x8fa83d -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x8fac4a -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fade0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fb2f6 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fb491 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fb6d1 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fb862 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fbaa1 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fbe9b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fc0b5 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fc23d -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fc489 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fce48 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fd664 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fd9a2 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fdc4a -> INT3 (CC)
-   [EXE] trap_isolated @ 0x8fde2a -> INT3 (CC)
-   [EXE] trap_isolated @ 0x905175 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90529e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90541e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90559e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x905725 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9058ae -> INT3 (CC)
-   [EXE] trap_isolated @ 0x905a2e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x905bb9 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x905c10 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90644e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90685e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9069cb -> INT3 (CC)
    [EXE] cd03 @ 0x906c41 -> INT 3 (CD 03)
-   [EXE] trap_isolated @ 0x906cfe -> INT3 (CC)
-   [EXE] trap_isolated @ 0x906d05 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x906ed5 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x906ede -> INT3 (CC)
-   [EXE] trap_isolated @ 0x906f05 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x906f2c -> INT3 (CC)
-   [EXE] trap_isolated @ 0x906f50 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9071e8 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x907422 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9075b4 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90775c -> INT3 (CC)
-   [EXE] trap_isolated @ 0x907904 -> INT3 (CC)
    [EXE] iat_thunk @ 0x907c79 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x907d39 -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x907fe2 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9081bd -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9081cb -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90823e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x908542 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90898a -> INT3 (CC)
-   [EXE] trap_isolated @ 0x908c72 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x908fe2 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90b150 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90b350 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90b3a0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90b8e5 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90b901 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90ba22 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90c3ca -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90c3ed -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90c721 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90c897 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90c8ad -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90c9c5 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90c9cb -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90d06e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90d08b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90d0ab -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90d102 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90faa8 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90fc1b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90fcb9 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x90fdd2 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x910783 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9112c4 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x911322 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91133a -> INT3 (CC)
-   [EXE] trap_isolated @ 0x911c70 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x911df2 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x912102 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x912412 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x912534 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9128a7 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x912ad2 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x912c18 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x912ee2 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x912fa5 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x913232 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x913486 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9136b2 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91390e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x913b46 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x913e66 -> INT3 (CC)
    [EXE] iat_thunk @ 0x913fad -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x914170 -> INT3 (CC)
    [EXE] iat_thunk @ 0x9141fd -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x91444d -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x91469d -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x914770 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x914950 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x914dd7 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x919989 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x919b09 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x919cfb -> INT3 (CC)
-   [EXE] trap_isolated @ 0x919ed5 -> INT3 (CC)
    [EXE] iat_thunk @ 0x91a269 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x91a65b -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x91aa6b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91ad0b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91ad70 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91b0db -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91b5fa -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91bc0a -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91c03c -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91c29b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91cb7c -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91ccdc -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91cf00 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91d04d -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91d100 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91d300 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91d59b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91d9cc -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91dd75 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91dd91 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91dfaa -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91e86b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91e871 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91ecd2 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91ecd8 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91edc0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91ef31 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x91f4a8 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9202d2 -> INT3 (CC)
    [EXE] iat_thunk @ 0x92058d -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x920a5b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x920c6c -> INT3 (CC)
-   [EXE] trap_isolated @ 0x921080 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x921a9b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x922d96 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9232a7 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x923400 -> INT3 (CC)
    [EXE] iat_thunk @ 0x9234ba -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x923b4e -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x923dcc -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9242a8 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9248c0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x924c02 -> INT3 (CC)
    [EXE] iat_thunk @ 0x924cdd -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x924f80 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9251b5 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x925319 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x92537c -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9259f0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x925cf4 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x92746b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9275ab -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9275c7 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9275d6 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x927b47 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x927b4d -> INT3 (CC)
-   [EXE] trap_isolated @ 0x927f1c -> INT3 (CC)
    [EXE] iat_thunk @ 0x92830d -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x928370 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x9286a0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x928fd2 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93d1c5 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93d1e1 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93d57b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93d581 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93dc80 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93e1a0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93f6a8 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93fae8 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93fb30 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93fd39 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x93fe77 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x940210 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x940410 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94043e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94049e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x940730 -> INT3 (CC)
    [EXE] iat_thunk @ 0x940989 -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x940b70 -> INT3 (CC)
    [EXE] iat_thunk @ 0x940d5b -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x94599c -> INT3 (CC)
-   [EXE] trap_isolated @ 0x945afc -> INT3 (CC)
-   [EXE] trap_isolated @ 0x945de0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x945fe0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x946038 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x946101 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94698c -> INT3 (CC)
-   [EXE] trap_isolated @ 0x946f86 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x947259 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x947670 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x947752 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x947815 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94792d -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94793b -> INT3 (CC)
-   [EXE] trap_isolated @ 0x947a5d -> INT3 (CC)
-   [EXE] trap_isolated @ 0x947ca0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x948420 -> INT3 (CC)
    [EXE] iat_thunk @ 0x9486b3 -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x948970 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x948b4e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x948fa0 -> INT3 (CC)
    [EXE] iat_thunk @ 0x94904d -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x9496b6 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x949860 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x949a50 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94a251 -> INT3 (CC)
    [EXE] iat_thunk @ 0x94a6dd -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x94ab24 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94ae70 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94af70 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94b070 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94b7a1 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94c270 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94c370 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94cd90 -> INT3 (CC)
    [EXE] iat_thunk @ 0x94d08d -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x94d0c3 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94d0f1 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94d133 -> INT3 (CC)
    [EXE] iat_thunk @ 0x94d6a9 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x94d6c6 -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x94da5b -> INT3 (CC)
    [EXE] iat_thunk @ 0x94dedd -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x94e699 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x94e6b6 -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x94e8a0 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x94ed50 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x953213 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x95334e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x95381e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x953d70 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x953d88 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x953e91 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x954228 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x954331 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x95467e -> INT3 (CC)
-   [EXE] trap_isolated @ 0x954890 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x954aaa -> INT3 (CC)
-   [EXE] trap_isolated @ 0x954b50 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x954f73 -> INT3 (CC)
-   [EXE] trap_isolated @ 0x955422 -> INT3 (CC)
    [EXE] iat_thunk @ 0x95590c -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x95593c -> RobloxPlayerBeta.dll!sub_0xce3990
-   [EXE] trap_isolated @ 0x955a51 -> INT3 (CC)
    [EXE] iat_thunk @ 0x9666c6 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x9666e0 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x966876 -> RobloxPlayerBeta.dll!sub_0xce3990
@@ -2987,6 +2988,7 @@ namespace PEReport {
    [EXE] iat_thunk @ 0xb3ecfd -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0xb3ef4d -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0xb3f19d -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0xb5d7bd -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0xb70dad -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0xb7485d -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0xb74aad -> RobloxPlayerBeta.dll!sub_0xce3990
@@ -3065,6 +3067,14 @@ namespace PEReport {
    [EXE] cd03 @ 0xc80bb3 -> INT 3 (CD 03)
    [EXE] cd03 @ 0xc80e08 -> INT 3 (CD 03)
    [EXE] cd03 @ 0xc80ef9 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0xc83190 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0xc8320d -> INT 3 (CD 03)
+   [EXE] cd03 @ 0xc834dc -> INT 3 (CD 03)
+   [EXE] cd03 @ 0xc834ee -> INT 3 (CD 03)
+   [EXE] cd03 @ 0xc83512 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0xc836df -> INT 3 (CD 03)
+   [EXE] cd03 @ 0xc83f9d -> INT 3 (CD 03)
+   [EXE] cd03 @ 0xc83fb5 -> INT 3 (CD 03)
    [EXE] cd03 @ 0xc8402d -> INT 3 (CD 03)
    [EXE] cd03 @ 0xc8403e -> INT 3 (CD 03)
    [EXE] cd03 @ 0xc84056 -> INT 3 (CD 03)
@@ -3473,6 +3483,8 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x157d245 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x157fb77 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] cd03 @ 0x1595d05 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x15dd7c1 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x15dda33 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x15e5929 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x15e5946 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1603a8f -> HyperionLazy(0xbdbc)
@@ -3524,9 +3536,14 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x183fc3d -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1847416 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1847a4e -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x184b5e5 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x184bd3d -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x184bda8 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x18582f0 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x185c680 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x185cd73 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] cd03 @ 0x18680d1 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x1868572 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x186fc04 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] cd03 @ 0x187df61 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x188762c -> RobloxPlayerBeta.dll!sub_0xce3990
@@ -3541,6 +3558,8 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x1a09d9f -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1a09f1f -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1a2a89e -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x1a54843 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x1a54bb0 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1aa900a -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1accc3b -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] cd03 @ 0x1ae60d1 -> INT 3 (CD 03)
@@ -3549,6 +3568,10 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x1b77ef7 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1b78297 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1b78dd3 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x1b79398 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x1b794fb -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x1b79510 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x1b799f8 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1b96e1a -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x1b96e6a -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] cd03 @ 0x1baff82 -> INT 3 (CD 03)
@@ -3593,6 +3616,10 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x1dad528 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] cd03 @ 0x1dd6458 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x1dddb80 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x1ded043 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x1ded0f2 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x1ded5e2 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x1deeb59 -> KERNELBASE.dll!FreeLibrary
    [EXE] iat_thunk @ 0x1ea9421 -> ntdll.dll!RtlLeaveCriticalSection
    [EXE] iat_thunk @ 0x1f6af06 -> ntdll.dll!RtlLeaveCriticalSection
    [EXE] cd03 @ 0x1fa1849 -> INT 3 (CD 03)
@@ -3774,6 +3801,9 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x21bbe2c -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x21f15ad -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x21fd850 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x21ff3a4 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x2206738 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x2206776 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x2216f75 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x2260c9b -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x241d3e4 -> ntdll.dll!RtlLeaveCriticalSection
@@ -4031,8 +4061,13 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x2c44d26 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x2c44d5b -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] cd03 @ 0x2c4996f -> INT 3 (CD 03)
+   [EXE] iat_thunk @ 0x2c59ed6 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x2c59ee8 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x2c59f18 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x2c59f32 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x2c5ac2e -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x2c5adb0 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] cd03 @ 0x2ca9950 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x2d11c1b -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x2d11c3b -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x2d11c5b -> RobloxPlayerBeta.dll!sub_0xce3990
@@ -4142,11 +4177,16 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x351b8f2 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] cd03 @ 0x351dfaf -> INT 3 (CD 03)
    [EXE] cd03 @ 0x3522386 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x3524a28 -> INT 3 (CD 03)
    [EXE] cd03 @ 0x352af2d -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x3530c71 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x353281d -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] cd03 @ 0x3535fe0 -> INT 3 (CD 03)
    [EXE] cd03 @ 0x353cab0 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x353fc45 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x353fcbe -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] cd03 @ 0x3548a13 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x3548a1a -> INT 3 (CD 03)
    [EXE] cd03 @ 0x355bc7d -> INT 3 (CD 03)
    [EXE] cd03 @ 0x3592151 -> INT 3 (CD 03)
    [EXE] cd03 @ 0x359216a -> INT 3 (CD 03)
@@ -4329,6 +4369,12 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x398fcc0 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x398fce3 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x398ff60 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x3990047 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x39900d7 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x3990100 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x3990123 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x3990170 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x3990193 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] cd03 @ 0x39ab9e1 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x39b8961 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x39b8bad -> RobloxPlayerBeta.dll!sub_0xce3990
@@ -4429,6 +4475,10 @@ namespace PEReport {
    [EXE] cd03 @ 0x3fddfdb -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x3ff5d19 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x4039fc7 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] cd03 @ 0x403b721 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x403b981 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x403bbe1 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x403be41 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x4069f5d -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x40a3250 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x40ad8b5 -> RobloxPlayerBeta.dll!sub_0xce3990
@@ -4560,6 +4610,7 @@ namespace PEReport {
    [EXE] cd03 @ 0x47de7c7 -> INT 3 (CD 03)
    [EXE] cd03 @ 0x47e091c -> INT 3 (CD 03)
    [EXE] cd03 @ 0x47e18c7 -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x47e3faa -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x47e6034 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] cd03 @ 0x47e7128 -> INT 3 (CD 03)
    [EXE] cd03 @ 0x47e7552 -> INT 3 (CD 03)
@@ -4632,6 +4683,8 @@ namespace PEReport {
    [EXE] cd03 @ 0x4997f31 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x4a515c4 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x4a54852 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x4a83149 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x4a84cdc -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x4ac52cf -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x4ae637c -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] cd03 @ 0x4b51bcf -> INT 3 (CD 03)
@@ -4645,6 +4698,7 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x4bed98d -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x4bed9ad -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x4c6cd69 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x4c76ea7 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x4c82107 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x4c87467 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x4c8bf5c -> RobloxPlayerBeta.dll!sub_0xce3990
@@ -4672,6 +4726,7 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x4e5f875 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x50849e2 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x5084a68 -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] cd03 @ 0x50e65d9 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x5109513 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x51119e0 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x5111b12 -> RobloxPlayerBeta.dll!sub_0xce3990
@@ -4685,6 +4740,9 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x52af26a -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x52b5b28 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x531e81d -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x56269db -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x56269ff -> RobloxPlayerBeta.dll!sub_0xce3990
+   [EXE] iat_thunk @ 0x5626dde -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x5905094 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x59052d3 -> RobloxPlayerBeta.dll!sub_0xce3990
    [EXE] iat_thunk @ 0x5996532 -> combase.dll!CoUninitialize
@@ -4840,8 +4898,17 @@ namespace PEReport {
    [EXE] iat_thunk @ 0x5e4f500 -> advapi32.dll!ConvertStringSecurityDescriptorToSecurityDescriptorW
    [EXE] cd03 @ 0x5e531d1 -> INT 3 (CD 03)
    [EXE] cd03 @ 0x5e687bd -> INT 3 (CD 03)
+   [EXE] cd03 @ 0x5e930ec -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x5ea3b22 -> KERNEL32.DLL!GetCurrentThreadId
    [EXE] iat_thunk @ 0x5ea3ec4 -> KERNELBASE.dll!TlsSetValue
+   [EXE] cd03 @ 0x5eb2bed -> INT 3 (CD 03)
+   [EXE] iat_thunk @ 0x5f1aa31 -> KERNELBASE.dll!WaitForSingleObject
+   [EXE] iat_thunk @ 0x5f1aa76 -> ntdll.dll!RtlLeaveCriticalSection
+   [EXE] iat_thunk @ 0x5f1aaa9 -> KERNELBASE.dll!ReleaseSemaphore
+   [EXE] iat_thunk @ 0x5f1ac8d -> ntdll.dll!RtlLeaveCriticalSection
+   [EXE] iat_thunk @ 0x5f1acb5 -> KERNELBASE.dll!ReleaseSemaphore
+   [EXE] iat_thunk @ 0x5f1af22 -> ntdll.dll!RtlEnterCriticalSection
+   [EXE] iat_thunk @ 0x5f1af92 -> ntdll.dll!RtlLeaveCriticalSection
    [EXE] cd03 @ 0x5faf285 -> INT 3 (CD 03)
    [EXE] iat_thunk @ 0x609d7bf -> KERNEL32.DLL!GetLastError
    [EXE] iat_thunk @ 0x60a5710 -> RobloxPlayerBeta.dll!sub_0xce3990

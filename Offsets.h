@@ -2,8 +2,8 @@
 /*  Dumped With     : ZIKA Dumper
 /*  Roblox Version  : version-2c6fd5e09aaf4cfa
 /*  Dumper Version  : 4.0.0
-/*  Dumped At       : 13:33:29 2026-11-24
-/*  Total Offsets   : 5884
+/*  Dumped At       : 17:37:33 2026-11-24
+/*  Total Offsets   : 5906
 */
 
 #pragma once
@@ -139,6 +139,7 @@ namespace AlignOrientation {
     inline constexpr uintptr_t MaxAngularVelocity = 0x18c;
     inline constexpr uintptr_t MaxTorque = 0x190;
     inline constexpr uintptr_t PrimaryAxis = 0x158;
+    inline constexpr uintptr_t PrimaryAxisOnly = 0x19c;
     inline constexpr uintptr_t ReactionTorqueEnabled = 0x19d;
     inline constexpr uintptr_t Responsiveness = 0x198;
     inline constexpr uintptr_t RigidityEnabled = 0x19e;
@@ -525,6 +526,7 @@ namespace AudioCompressor {
 namespace AudioDeviceInput {
     inline constexpr uintptr_t Active = 0xa0;
     inline constexpr uintptr_t Archivable = 0x92;
+    inline constexpr uintptr_t Muted = 0xa4;
     inline constexpr uintptr_t MutedByLocalUser = 0xa5;
     inline constexpr uintptr_t NoiseSuppression = 0xa6;
     inline constexpr uintptr_t Volume = 0x9c;
@@ -1086,13 +1088,16 @@ namespace BaseScript {
 namespace BaseWrap {
     inline constexpr uintptr_t Archivable = 0x92;
     inline constexpr uintptr_t CageMeshContent = 0xa0;
+    inline constexpr uintptr_t CageMeshId = 0xa0;
     inline constexpr uintptr_t CageOrigin = 0x148;
+    inline constexpr uintptr_t HSRAssetId = 0xd0;
     inline constexpr uintptr_t HSRContent = 0xd0;
     inline constexpr uintptr_t HSRData = 0x138;
     inline constexpr uintptr_t HSRMeshIdData = 0x140;
     inline constexpr uintptr_t ImportInProcess = 0x1a8;
     inline constexpr uintptr_t ImportOrigin = 0x178;
     inline constexpr uintptr_t TemporaryCageMeshContent = 0x100;
+    inline constexpr uintptr_t TemporaryCageMeshId = 0x100;
 }
 
 namespace Beam {
@@ -2073,7 +2078,7 @@ namespace DataModel {
     inline constexpr uintptr_t PlaceId = 0x1a0;
     inline constexpr uintptr_t PlaceVersion = 0x1bc;
     inline constexpr uintptr_t ServerRegion = 0x128;
-    inline constexpr uintptr_t ServiceCount = 0x5f;
+    inline constexpr uintptr_t ServiceCount = 0x70;
     inline constexpr uintptr_t Services = 0x98;
     inline constexpr uintptr_t Workspace = 0x168;
 }
@@ -2650,8 +2655,8 @@ namespace FacialAnimationStreamingSubsessionStats {
 }
 
 namespace FakeDataModel {
-    inline constexpr uintptr_t Pointer = 0x8cdc038;
-    inline constexpr uintptr_t RealDataModel = 0x1a0;
+    inline constexpr uintptr_t Pointer = 0x8e16368;
+    inline constexpr uintptr_t RealDataModel = 0x1f8;
 }
 
 namespace Feature {
@@ -3145,6 +3150,7 @@ namespace GuiBase3d {
 }
 
 namespace GuiButton {
+    inline constexpr uintptr_t AutoButtonColor = 0x6ac;
     inline constexpr uintptr_t DragBeginConnectionCount = 0x308;
     inline constexpr uintptr_t DragStoppedConnectionCount = 0x30c;
     inline constexpr uintptr_t Draggable = 0x342;
@@ -3596,6 +3602,7 @@ namespace IXPService {
 }
 
 namespace ImageButton {
+    inline constexpr uintptr_t AutoButtonColor = 0x6ac;
     inline constexpr uintptr_t ContentImageSize = 0xa9c;
     inline constexpr uintptr_t DragBeginConnectionCount = 0x308;
     inline constexpr uintptr_t DragStoppedConnectionCount = 0x30c;
@@ -3965,7 +3972,7 @@ namespace LayerCollector {
 }
 
 namespace Legacy {
-    inline constexpr uintptr_t FakeDataModelPointer = 0x8cdc038;
+    inline constexpr uintptr_t FakeDataModelPointer = 0x8e16368;
     inline constexpr uintptr_t VisualEnginePointer = 0x8896b98;
 }
 
@@ -5146,6 +5153,7 @@ namespace Player {
     inline constexpr uintptr_t LocalPlayer = 0x118;
     inline constexpr uintptr_t LocaleId = 0x740;
     inline constexpr uintptr_t MaximumSimulationRadius = 0x3a8;
+    inline constexpr uintptr_t ModelInstance = 0x2a0;
 }
 
 namespace PlayerData {
@@ -5635,6 +5643,7 @@ namespace RemoteFunction {
 }
 
 namespace RenderJob {
+    inline constexpr uintptr_t FakeDataModel = 0x1d0;
     inline constexpr uintptr_t RenderView = 0x1e0;
 }
 
@@ -6778,6 +6787,7 @@ namespace StyleQuery {
 namespace StyleRule {
     inline constexpr uintptr_t Archivable = 0x92;
     inline constexpr uintptr_t DefinesCapabilities = 0x92;
+    inline constexpr uintptr_t Index = 0x158;
     inline constexpr uintptr_t Priority = 0x15c;
     inline constexpr uintptr_t Selector = 0x118;
     inline constexpr uintptr_t SelectorError = 0x138;
@@ -6890,7 +6900,7 @@ namespace SystemThemeService {
 namespace TaskScheduler {
     inline constexpr uintptr_t Archivable = 0x92;
     inline constexpr uintptr_t DefinesCapabilities = 0x92;
-    inline constexpr uintptr_t JobCount = 0x46;
+    inline constexpr uintptr_t JobCount = 0x32;
     inline constexpr uintptr_t JobEnd = 0xd0;
     inline constexpr uintptr_t JobName = 0x18;
     inline constexpr uintptr_t JobStart = 0xc8;
@@ -7059,8 +7069,10 @@ namespace TestService {
     inline constexpr uintptr_t Archivable = 0x92;
     inline constexpr uintptr_t AutoRuns = 0xf8;
     inline constexpr uintptr_t ErrorCount = 0xe8;
+    inline constexpr uintptr_t Is30FpsThrottleEnabled = 0xfc;
     inline constexpr uintptr_t NumberOfPlayers = 0xec;
     inline constexpr uintptr_t TestCount = 0xf0;
+    inline constexpr uintptr_t ThrottlePhysicsToRealtime = 0xfc;
 }
 
 namespace TestSuite {
@@ -7093,6 +7105,7 @@ namespace TextBoxService {
 }
 
 namespace TextButton {
+    inline constexpr uintptr_t AutoButtonColor = 0x6ac;
     inline constexpr uintptr_t Confidential = 0xd9c;
     inline constexpr uintptr_t ContentText = 0xcb0;
     inline constexpr uintptr_t DragBeginConnectionCount = 0x308;
@@ -8090,6 +8103,7 @@ namespace Visit {
 
 namespace VisualEngine {
     inline constexpr uintptr_t Dimensions = 0xb10;
+    inline constexpr uintptr_t FakeDataModel = 0xaf0;
     inline constexpr uintptr_t Pointer = 0x8896b98;
     inline constexpr uintptr_t RenderView = 0xc50;
     inline constexpr uintptr_t ViewMatrix = 0x1b0;
@@ -8296,19 +8310,24 @@ namespace WrapContentProvider {
 namespace WrapDeformer {
     inline constexpr uintptr_t Archivable = 0x92;
     inline constexpr uintptr_t CageMeshContent = 0xa0;
+    inline constexpr uintptr_t CageMeshId = 0xa0;
     inline constexpr uintptr_t CageOrigin = 0x148;
+    inline constexpr uintptr_t HSRAssetId = 0xd0;
     inline constexpr uintptr_t HSRContent = 0xd0;
     inline constexpr uintptr_t HSRData = 0x138;
     inline constexpr uintptr_t HSRMeshIdData = 0x140;
     inline constexpr uintptr_t ImportInProcess = 0x1a8;
     inline constexpr uintptr_t ImportOrigin = 0x178;
     inline constexpr uintptr_t TemporaryCageMeshContent = 0x100;
+    inline constexpr uintptr_t TemporaryCageMeshId = 0x100;
 }
 
 namespace WrapLayer {
     inline constexpr uintptr_t BindOffset = 0x388;
     inline constexpr uintptr_t CageMeshContent = 0xa0;
+    inline constexpr uintptr_t CageMeshId = 0xa0;
     inline constexpr uintptr_t CageOrigin = 0x148;
+    inline constexpr uintptr_t HSRAssetId = 0xd0;
     inline constexpr uintptr_t HSRContent = 0xd0;
     inline constexpr uintptr_t HSRData = 0x138;
     inline constexpr uintptr_t HSRMeshIdData = 0x140;
@@ -8327,8 +8346,10 @@ namespace WrapLayer {
 namespace WrapTarget {
     inline constexpr uintptr_t Archivable = 0x92;
     inline constexpr uintptr_t CageMeshContent = 0xa0;
+    inline constexpr uintptr_t CageMeshId = 0xa0;
     inline constexpr uintptr_t CageOrigin = 0x148;
     inline constexpr uintptr_t Color = 0xa0;
+    inline constexpr uintptr_t HSRAssetId = 0xd0;
     inline constexpr uintptr_t HSRContent = 0xd0;
     inline constexpr uintptr_t HSRData = 0x138;
     inline constexpr uintptr_t HSRMeshIdData = 0x140;
@@ -8336,6 +8357,7 @@ namespace WrapTarget {
     inline constexpr uintptr_t ImportOrigin = 0x178;
     inline constexpr uintptr_t Stiffness = 0xb0;
     inline constexpr uintptr_t TemporaryCageMeshContent = 0x100;
+    inline constexpr uintptr_t TemporaryCageMeshId = 0x100;
 }
 
 namespace WrapTextureTransfer {
